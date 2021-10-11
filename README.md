@@ -1,13 +1,13 @@
-#  DVC - DL - TF - AIOPS demo
+###  DVC - DL - TF - AIOPS demo
 
-## commands -
+### commands -
 
 ### create a new env
 '''bash
 conda create --prefix ./env python=3.7 -y
 '''
 ### Activate new env
-''' bash
+'''bash
 source activate ./env
 '''
 
@@ -17,7 +17,7 @@ git init
 dvc init
 '''
 ### create emty files -
-''' bash
+'''bash
 mkdir -p scr/utils config
 touch src/__init__.py src/utils/__init__.py param.yaml config/config.yaml src/stage_01_load_save.py src/tuitls/all_utils.py setup.py .gitignore
 '''
