@@ -4,25 +4,25 @@ download data --> [source](https://drive.google.com/drive/u/0/folders/1tz4IOoJKd
 ### commands -
 
 ### create a new env
-'''bash
+```bash
 conda create --prefix ./env python=3.7 -y
-'''
+```
 ### Activate new env
-'''bash
+```bash
 source activate ./env
-'''
+```
 
 ### init DVC
-'''bash
+```bash
 git init
 dvc init
-'''
+```
 ### create emty files -
-'''bash
+```bash
 mkdir -p scr/utils config
 touch src/__init__.py src/utils/__init__.py param.yaml config/config.yaml src/stage_01_load_save.py src/tuitls/all_utils.py setup.py .gitignore
-'''
+```
 ### install src
-'''bash
+```bash
 pip install -e .
-'''
+```
