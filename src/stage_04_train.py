@@ -51,6 +51,7 @@ def train_model(config_path, params_path):
         callbacks = callbacks
     )
 
+    
 
 if __name__ == '__main__':
     args = argparse.ArgumentParser()
