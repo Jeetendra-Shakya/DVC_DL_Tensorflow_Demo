@@ -4,7 +4,7 @@ from src.utils.callbacks import create_and_save_tensorboard_callback, create_and
 import argparse
 import os
 import logging
-import io
+
 
 logging_str = "[%(asctime)s: %(levelname)s: %(module)s]: %(message)s"
 log_dir = "logs"
